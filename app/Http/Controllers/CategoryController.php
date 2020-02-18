@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +20,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return view('category');
+        $categories =Category::all();
+        return view('category.show',compact('categories'));
     }
 
     /**
@@ -24,7 +31,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+        return view('category.create');
     }
 
     /**
@@ -35,7 +42,22 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'name'=>'required'
+        ]);
+        $category = new Category();
+        $category->name = $request->name;
+        $category->save();
+
+        if($category){
+            return redirect()
+                ->route('category.index')
+                ->with('success','Category Created Successfully');
+        }else{
+            return redirect()
+                ->back()
+                ->with('failed','Category Create failed');
+        }
     }
 
     /**
@@ -57,7 +79,8 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        //
+        return  view('category.edit',compact('category'));
+
     }
 
     /**
@@ -69,7 +92,21 @@ class CategoryController extends Controller
      */
     public function update(Request $request, Category $category)
     {
-        //
+        $this->validate($request,[
+            'name'=>'required'
+        ]);
+        $category->name = $request->name;
+        $category->save();
+
+        if($category){
+            return redirect()
+                ->back()
+                ->with('success','Category Updated Successfully');
+        }else{
+            return redirect()
+                ->back()
+                ->with('failed','Category Updated failed');
+        }
     }
 
     /**
@@ -80,6 +117,15 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        //
+        $category->delete();
+        if($category){
+            return redirect()
+                ->back()
+                ->with('success','Category Deleted Successfully');
+        }else{
+            return redirect()
+                ->back()
+                ->with('failed','Category Deleted failed');
+        }
     }
 }

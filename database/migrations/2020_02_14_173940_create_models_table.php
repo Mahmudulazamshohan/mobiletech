@@ -18,7 +18,8 @@ class CreateModelsTable extends Migration
             $table->unsignedBigInteger('brand_id');
             $table->unsignedBigInteger('category_id');
             $table->string('name');
-            $table->string('model_name');
+            $table->string('image');
+            $table->string('model_name')->unique();
             $table->string('old_price')->nullable();
             $table->string('current_price');
 

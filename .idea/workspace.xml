@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241af6fa-2613-48fb-819d-2b1aaa6de6e6" name="Default Changelist" comment="" />
+    <list default="true" id="241af6fa-2613-48fb-819d-2b1aaa6de6e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Repositories/ModelsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/brand/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/brand/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/brand/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/model/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/model/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/model/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mobiletech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobiletech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Battery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Battery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Body.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Camera.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Camera.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Connectivity.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Connectivity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Display.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Features.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Features.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Launch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Launch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Memory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Memory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Network.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Network.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Platform.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Platform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Sound.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Sound.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_173133_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_173133_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_173939_create_brands_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_173939_create_brands_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_173940_create_models_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_173940_create_models_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +58,33 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -102,23 +175,36 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XmlmOH1B9KqFsZBfK0orPHuhbB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mlmproject" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\phpdir\htdocs\mobiletech\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\phpdir\htdocs\mobiletech\resources\views\model" />
+      <recent name="C:\phpdir\htdocs\mobiletech\resources\views\brand" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +226,13 @@
       <workItem from="1581659315726" duration="2103000" />
       <workItem from="1581695309700" duration="412000" />
       <workItem from="1581699196328" duration="1245000" />
-      <workItem from="1581700489542" duration="3501000" />
+      <workItem from="1581700489542" duration="8483000" />
+      <workItem from="1581743748264" duration="7571000" />
+      <workItem from="1581773662547" duration="8692000" />
+      <workItem from="1581867583691" duration="14741000" />
+      <workItem from="1581920607122" duration="2373000" />
+      <workItem from="1581942504926" duration="3224000" />
+      <workItem from="1581956251292" duration="4470000" />
     </task>
     <servers />
   </component>
@@ -148,27 +240,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="350" y="63" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581869123173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="350" y="63" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581869123173" />
+    <state x="258" y="0" width="867" height="728" key="#phpunit.xml" timestamp="1581870595059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="258" y="0" width="867" height="728" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1581870595059" />
+    <state x="404" y="63" key="FileChooserDialogImpl" timestamp="1581875740589">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="63" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581875740589" />
     <state x="357" y="142" key="NewPhpClassDialog" timestamp="1581700163968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="357" y="142" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1581700163968" />
-    <state x="462" y="273" key="NewPhpFileDialog" timestamp="1581700171034">
+    <state x="462" y="273" key="NewPhpFileDialog" timestamp="1581883884570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="273" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1581700171034" />
+    <state x="462" y="273" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1581883884570" />
+    <state x="289" y="38" width="787" height="652" key="find.popup" timestamp="1581780014728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="289" y="38" width="787" height="652" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581780014728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/auth/login.blade.php</url>
-          <line>23</line>
+          <line>26</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php</url>
-          <line>1130</line>
+          <line>526</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/migrations/2020_02_14_174113_create_networks_table.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Features.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

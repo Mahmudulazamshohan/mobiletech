@@ -16,3 +16,9 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::namespace('Api')->prefix('/phone')->group(function (){
+    Route::get('/models','ModelController@index')->name('phone.models');
+    Route::get('/models/search','ModelController@search')->name('phone.search');
+
+
+});

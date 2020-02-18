@@ -20,6 +20,9 @@
         width: 30%;
         margin: 100px auto 0 auto;
     }
+    body{
+        background: #eee;
+    }
 </style>
 <body>
 <div class="login-box">
@@ -28,17 +31,28 @@
         ><h5 class="card-title">
                 {{env('APP_NAME')}}
             </h5>
-            <form class="">
+            <form action="{{route('login')}}" method="POST">
+                @csrf
 
                 <div class="position-relative form-group">
                     <label for="exampleAddress" class="">Email</label>
                     <input
-                        name="email"  placeholder="" type="text" class="form-control">
+                        name="email"  placeholder="" type="text" class="form-control"  value="{{ old('email') }}">
+                    @error('email')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
                 </div>
                 <div class="position-relative form-group">
                     <label class="">Password</label><input
                         name="password" placeholder="" type="text"
-                        class="form-control">
+                        class="form-control" value="{{ old('password') }}">
+                    @error('password')
+                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                    @enderror
                 </div>
 
                 <div class="position-relative form-check">

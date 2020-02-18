@@ -36,7 +36,7 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                    <a href="index.html" class="mm-active">
+                    <a href="{{route('admin.dashboard')}}" class="mm-active">
                         <i class="metismenu-icon pe-7s-rocket"></i>
                         Home
                     </a>
@@ -58,23 +58,20 @@
 
                     >
                         <li>
-                            <a href="elements-buttons-standard.html">
+                            <a href="{{route('category.create')}}">
                                 <i class="metismenu-icon"></i>
                                 Create
                             </a>
                         </li>
                         <li>
-                            <a href="elements-buttons-standard.html">
+                            <a href="{{route('category.index')}}">
                                 <i class="metismenu-icon"></i>
                                 Show
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li
-
-
-                >
+                <li>
                     <a href="#">
                         <i class="metismenu-icon pe-7s-car"></i>
                         Brand
@@ -85,59 +82,46 @@
 
                     >
                         <li>
-                            <a href="components-tabs.html">
-                                <i class="metismenu-icon">
-                                </i>Create
+                            <a href="{{route('brand.create')}}">
+                                <i class="metismenu-icon"></i>
+                                Create
                             </a>
                         </li>
                         <li>
-                            <a href="components-tabs.html">
-                                <i class="metismenu-icon">
-                                </i>Create
+                            <a href="{{route('brand.index')}}">
+                                <i class="metismenu-icon"></i>
+                                Show
                             </a>
                         </li>
 
                     </ul>
                 </li>
                 <li>
-                    <a href="tables-regular.html">
-                        <i class="metismenu-icon pe-7s-display2"></i>
-                        Tables
+                    <a href="#">
+                        <i class="metismenu-icon pe-7s-car"></i>
+                        Phone Model
+                        <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
                     </a>
+                    <ul
+
+
+                    >
+                        <li>
+                            <a href="{{route('model.create')}}">
+                                <i class="metismenu-icon"></i>
+                                Create
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('model.index')}}">
+                                <i class="metismenu-icon"></i>
+                                Show
+                            </a>
+                        </li>
+
+                    </ul>
                 </li>
-                <li class="app-sidebar__heading">Widgets</li>
-                <li>
-                    <a href="dashboard-boxes.html">
-                        <i class="metismenu-icon pe-7s-display2"></i>
-                        Dashboard Boxes
-                    </a>
-                </li>
-                <li class="app-sidebar__heading">Forms</li>
-                <li>
-                    <a href="forms-controls.html">
-                        <i class="metismenu-icon pe-7s-mouse">
-                        </i>Forms Controls
-                    </a>
-                </li>
-                <li>
-                    <a href="forms-layouts.html">
-                        <i class="metismenu-icon pe-7s-eyedropper">
-                        </i>Forms Layouts
-                    </a>
-                </li>
-                <li>
-                    <a href="forms-validation.html">
-                        <i class="metismenu-icon pe-7s-pendrive">
-                        </i>Forms Validation
-                    </a>
-                </li>
-                <li class="app-sidebar__heading">Charts</li>
-                <li>
-                    <a href="charts-chartjs.html">
-                        <i class="metismenu-icon pe-7s-graph2">
-                        </i>ChartJS
-                    </a>
-                </li>
+
 
             </ul>
         </div>
